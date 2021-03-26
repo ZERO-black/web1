@@ -1,18 +1,28 @@
 <!doctype html>
 <html>
 <head>
-<title>WEB1 - css</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="style.css">
+  <title>WEB1 - css</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script src="colors.js"></script>
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
   <div class="" id="grid">
-    <ol>
-      <li><a href="1.html">HTML</a></li>
-      <li><a href="2.html">CSS</a></li>
-      <li><a href="3.html">JAVASCRIPT</a></li>
-    </ol>
+    <div class="left">
+      <div class="darkmode">
+        <input type="button" value="Night Mode" onclick="nightDayHandler(this);">
+      </div>
+      <ol class="list">
+        <li><a href="1.html">HTML</a></li>
+        <li><a href="2.html">CSS</a></li>
+        <li><a href="3.html">JAVASCRIPT</a></li>
+      </ol>
+    </div>
     <div id="article">
       <h2>CSS이란 무엇인가</h2>
 

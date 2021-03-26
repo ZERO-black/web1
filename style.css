@@ -14,10 +14,11 @@ h1{
   padding: 15px;
 }
 #grid ol{
-  border-right: 1px solid gray;
+
   width: 100px;
   margin: 0;
   padding: 33px;
+  padding-top: 10px;
 }
 #grid{
   display: grid;
@@ -38,4 +39,13 @@ h1{
   h1{
     border-bottom: none;
   }
+}
+
+.darkmode{
+  padding: 10px;
+  text-align: center;
+}
+
+.left{
+  border-right: 1px solid gray;
 }
